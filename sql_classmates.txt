@@ -1,0 +1,13 @@
+CREATE DATABASE classmates;
+
+USE classmates;
+
+CREATE TABLE students (
+  id INT(11) NOT NULL AUTO_INCREMENT,
+  name VARCHAR(50) NOT NULL,
+  age INT(3) NOT NULL,
+  address VARCHAR(100) NOT NULL,
+  PRIMARY KEY (id)
+);
+
+INSERT INTO students (name, age, address) VALUES ('Иванов Иван', 20, 'ул. Ленина, д. 10');
